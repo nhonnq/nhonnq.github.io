@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:  
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -25,7 +25,7 @@ jobs:
       - name: Deploy
         # configure an external GitHub Pages deploy workflow here
         # https://github.com/JamesIves/github-pages-deploy-action
-        uses: JamesIves/github-pages-deploy-action@4.4.0 
+        uses: JamesIves/github-pages-deploy-action@4.4.3
         with:
           branch: main
           folder: out
