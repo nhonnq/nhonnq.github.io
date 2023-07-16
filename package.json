@@ -1,7 +1,7 @@
 {
   "name": "nhonnq",
   "version": "0.1.0",
-  "homepage": "https://nhonnq.github.io/nhonnq.github.io",
+  "homepage": "https://nhonnq.github.io",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
