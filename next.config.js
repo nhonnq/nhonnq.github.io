@@ -6,8 +6,7 @@ const basePath = `/${repo}`
 
 const nextConfig = {
     assetPrefix: assetPrefix,
-    basePath: basePath,
-    distDir: 'build'
+    basePath: basePath
 }
 
 module.exports = nextConfig
