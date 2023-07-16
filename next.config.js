@@ -2,7 +2,7 @@
 
 const nextConfig = {
     reactStrictMode: true,
-    basePath: '/me',
+    basePath: '',
     output: 'export'
 }
 
